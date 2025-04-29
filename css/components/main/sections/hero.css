@@ -45,6 +45,7 @@
 
 .screen__left-text .title {
     width: 615px;
+    line-height: 50px;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
@@ -127,4 +128,88 @@
     display: flex;
     gap: 5px;
     align-items: center;
+}
+
+.block {
+    font-family: "Jost";
+    color: var(--text-black);
+}
+
+.block h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.achievements-left {
+    display: flex;
+    gap: 90px;
+}
+
+.achievements__wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yandex__block {
+    cursor: default;
+    border: 1px solid #5d6c7b1d;
+    border-radius: var(--block-small-border-radius);
+    padding: 10px;
+    width: 190px;
+}
+
+.yandex__block-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.yandex__block-left img {
+    z-index: 10;
+}
+
+.yandex__block-right span {
+    font-size: 12px;
+    color: var(--text-gray);
+}
+
+.yandex__block-star {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.yandex__block-star .star {
+    color: var(--text-black);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.yandex__block-left {
+    position: relative;
+    background-color: #FC3F1D;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    border-radius: var(--block-small-border-radius);
+    padding: 13px;
+    z-index: 6;
+}
+
+.shadow {
+    position: absolute;
+    background-color: rgba(252, 62, 29, 0.814);
+    filter: blur(15px);
+    width: 48px;
+    height: 48px;
+    z-index: 2;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
 }
