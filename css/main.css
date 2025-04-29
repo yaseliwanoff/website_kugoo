@@ -1,0 +1,61 @@
+/* Базовые подключения */
+@import url("./adaptives.css");
+@import url("./reset.css");
+@import url("./typography.css");
+
+/* Подключение стилей компонентов */
+@import url("./components/header/header.css");
+@import url("./components/main/sections/hero.css");
+
+/* Подключение стилей страниц */
+
+:root {
+    /* Цвета для текста */
+    --text-gray: #5D6C7B;
+    --text-black: #282739;
+    --text-white: #FFFFFF;
+    --text-purple: #6F73EE;
+    --text-green: #75D14A;
+    --text-red: #EE685F;
+
+    /* Цветовые переменные */
+    --background-white: #FFFFFF;
+    --background-light-blue: #F4F7FB;
+    --background-dark-blue: #EAEBED;
+    --background-purple: #6F73EE;
+    --background-green: #75D14A;
+    --background-red: #EE685F;
+    --background-orange: #F3A712;
+
+    /* Переменные для адаптивности */
+    --breakpoint-mobile: 292px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1382px;
+
+    --container-padding: 20px;
+
+    /* Типографика */
+    --text-size-large: 42px;
+    --text-size-medium: 33px;
+    --text-size-low: 26px;
+    --text-description: 14px;
+    --text-button: 12px;
+
+    /* Переменные размера блоков */
+    --block-padding-small: 10px;
+    --block-padding-medium: 20px;
+    --block-padding-large: 24px;
+    --block-padding-super: 40px;
+    --block-margin-small: 5px;
+    --block-margin-medium: 15px;
+    --block-margin-large: 25px;
+
+    --block-small-border-radius: 5px;
+    --block-large-border-radius: 10px;
+
+    /* Переменные для эффектов и состояний */
+    --transition-fast: 0.1s ease-in-out;
+    --transition-medium: 0.3s ease-in-out;
+    --transition-slow: 0.5s ease-in-out;
+    --opacity-hover: 0.5;
+}

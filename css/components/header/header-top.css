@@ -1,0 +1,54 @@
+.header__top {
+    border-bottom: 1px solid #ECF3FF;
+    padding-block: 11px;
+}
+
+.cotacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contacts__menu-menu, .contacts__socials {
+    display: flex;
+    align-items: center;
+}
+
+.contacts__menu-menu {
+    gap: 30px;
+    font-size: var(--text-button);
+    color: var(--text-gray);
+}
+
+.contacts__menu-menu li {
+    transition: var(--transition-fast);
+}
+
+.contacts__menu-menu li:hover {
+    opacity: var(--opacity-hover);
+}
+
+.contacts__socials {
+    gap: 9px;
+}
+
+.contacts__socials a {
+    transition: var(--transition-fast);
+}
+
+.contacts__socials a:hover {
+    opacity: var(--opacity-hover);
+}
+
+.call-button {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: var(--text-button);
+}

@@ -1,0 +1,118 @@
+.header__middle-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__middle-middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header__middle {
+    padding-block: 29px 35px;
+}
+
+/* .header__middle-wrapper {
+    display: flex;
+    align-items: center;
+} */
+
+.header__middle-left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.catalog {
+    background-color: var(--background-purple);
+    border-radius: var(--block-small-border-radius);
+    padding: 0 18px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    transition: var(--transition-fast);
+}
+
+.catalog:hover {
+    opacity: 0.9;
+}
+
+.catalog span {
+    color: var(--text-white);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    /* max-width: 603px; */
+    font-size: var(--text-button);
+    margin-left: 30px;
+    margin-right: 47px;
+}
+
+.input-container input {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 45px;
+    height: 40px;
+    border: 1px solid var(--background-purple);
+    border-radius: var(--block-small-border-radius);
+}
+
+.left-button,
+.right-button {
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    bottom: 0;
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.left-button {
+    left: 0;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 14px;
+    background-color: var(--background-light-blue);
+    border-radius: var(--block-small-border-radius);
+}
+
+.right-button {
+    right: 0;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-purple);
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header__middle-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card span {
+    font-size: 14px;
+}

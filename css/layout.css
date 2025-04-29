@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    max-width: var(--breakpoint-desktop);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+}
+
+html, body {
+    font-family: "Jost", sans-serif;
+}

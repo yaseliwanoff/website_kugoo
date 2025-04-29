@@ -1,0 +1,130 @@
+#main {
+    font-family: "Jost";
+    font-weight: 400;
+    margin-top: 31px;
+}
+
+.hero__screen {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero__screen-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-wrapper {
+    padding-left: 135px;
+}
+
+.hero__screen {
+    padding-block: 35px;
+    width: 100%;
+    height: 421px;
+    border-radius: var(--block-large-border-radius);
+    color: var(--text-white);
+    background: radial-gradient(130% 100% at 110% 62.23%, #a6a9ff 0%, #6f73ee 100%);
+}
+
+.screen__left-text {
+    padding-top: 25px;
+}
+
+.screen__left-text .tag {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 74px;
+    border: 1px solid var(--background-white);
+    padding: 5px 10px;
+    border-radius: var(--block-small-border-radius);
+    margin-bottom: 35px;
+}
+
+.screen__left-text .title {
+    width: 615px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.screen__left-text .description p {
+    font-size: 20px;
+}
+
+.screen__left-button {
+    margin-top: 25px;
+}
+
+.screen__left-button button {
+    background-color: var(--background-white);
+    color: var(--text-purple);
+    padding: 20px 25px;
+    border-radius: var(--block-small-border-radius);
+}
+
+.hero__right-bike img {
+    position: absolute;
+    bottom: 0;
+    width: 608px;
+    height: auto;
+    transform: translateX(-100%);
+    z-index: 2;
+}
+
+.hero__right-tag img {
+    position: absolute;
+    bottom: 20%;
+    right: 32%;
+    z-index: 10;
+}
+
+.background__text {
+    position: absolute;
+    top: 50%;
+    font-size: 520px;
+    left: 30%;
+    opacity: 30%;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-weight: 700;
+}
+
+.screen__left-slider {
+    margin-top: 46px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.screen__left-slider .left-slider, .right-slider {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.494);
+    transition: var(--transition-fast);
+}
+
+.left-slider:hover, .right-slider:hover {
+    background-color: rgba(255, 255, 255, 0.175);
+}
+
+.load-line {
+    width: 34px;
+    height: 2px;
+    border-radius: 999px;
+    background-color: #8E91F2;
+}
+
+.progress {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

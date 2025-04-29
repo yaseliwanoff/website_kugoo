@@ -1,0 +1,41 @@
+.header__bottom {
+    background-color: var(--background-light-blue);
+    font-size: var(--text-description);
+    padding-block: 10px;
+}
+
+.header__bottom-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ras {
+    background-color: var(--background-purple);
+    border-radius: 999px;
+    padding: 3px 8px;
+    font-size: 10px;
+    color: var(--text-white);
+}
+
+.procent {
+    background-color: var(--background-purple);
+    border-radius: 999px;
+    padding: 4px;
+    font-size: 10px;
+    color: var(--text-white);
+}
+
+.payment, .action {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__bottom-item {
+    transition: var(--transition-fast);
+}
+
+.header__bottom-item:hover {
+    opacity: 0.8;
+}
