@@ -3,9 +3,17 @@
 @import url("./reset.css");
 @import url("./typography.css");
 
-/* Подключение стилей компонентов */
+/* Подключение стилей секций */
 @import url("./components/header/header.css");
 @import url("./components/main/sections/hero.css");
+@import url("./components/main/sections/products.css");
+@import url("./components/card/card-product.css");
+
+/* Подключение стилей компонентов */
+@import url("./components/buttons/button-default.css");
+@import url("./components/buttons/button-order.css");
+@import url("./components/buttons/button-place.css");
+@import url("./components/buttons/button-tag.css");
 
 /* Подключение стилей страниц */
 
