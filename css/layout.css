@@ -9,4 +9,5 @@
 
 html, body {
     font-family: "Jost";
+    color: var(--text-black);
 }
