@@ -1,0 +1,14 @@
+.button__order {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--background-orange);
+    border-radius: var(--block-small-border-radius);
+    color: var(--text-color-white);
+    padding: 20px 25px;
+    transition: var(--transition-fast);
+}
+
+.button__order:hover {
+    opacity: 0.8;
+}

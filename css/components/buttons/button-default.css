@@ -1,0 +1,30 @@
+.button__default-fill {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--background-purple);
+    border-radius: var(--block-small-border-radius);
+    color: var(--text-color-white);
+    padding: 20px 25px;
+    transition: var(--transition-fast);
+}
+
+.button__default-fill:hover {
+    opacity: 0.8;
+}
+
+.button__default-outline {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 16px;
+    background-color: transparent;
+    color: var(--text-color-purple);
+    border-radius: var(--block-small-border-radius);
+    border: 1px solid var(--background-purple);
+    padding: 20px 25px;
+    transition: var(--transition-fast);
+}
+
+.button__default-outline:hover {
+    opacity: 0.8;
+}

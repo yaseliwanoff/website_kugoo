@@ -1,0 +1,25 @@
+.button__tag-fill {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 12px;
+    background-color: var(--background-light-blue);
+    border-radius: var(--block-small-border-radius);
+    color: #5D6C7B;
+    padding: 10px 20px;
+    transition: var(--transition-fast);
+}
+
+.button__tag-fill:hover {
+    opacity: 0.8;
+}
+
+.button__tag-outline {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 12px;
+    background-color: transparent;
+    border-radius: var(--block-small-border-radius);
+    color: var(--text-purple);
+    padding: 10px 20px;
+    border: 1px solid var(--background-purple);
+}
