@@ -1,0 +1,14 @@
+.button__light {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--background-white);
+    border-radius: var(--block-small-border-radius);
+    color: var(--text-black);
+    padding: 20px 25px;
+    transition: var(--transition-fast);
+}
+
+.button__light:hover {
+    opacity: 0.9;
+}

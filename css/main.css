@@ -4,16 +4,20 @@
 @import url("./typography.css");
 
 /* Подключение стилей секций */
-@import url("./components/header/header.css");
-@import url("./components/main/sections/hero.css");
-@import url("./components/main/sections/products.css");
-@import url("./components/card/card-product.css");
+@import url("./sections/hero.css");
+@import url("./sections/products.css");
+@import url("./sections/services.css");
+@import url("./sections/promotion.css");
 
 /* Подключение стилей компонентов */
+@import url("./components/header/header.css");
 @import url("./components/buttons/button-default.css");
+@import url("./components/buttons/button-light.css");
 @import url("./components/buttons/button-order.css");
 @import url("./components/buttons/button-place.css");
 @import url("./components/buttons/button-tag.css");
+@import url("./components/card/card-product.css");
+@import url("./components/services/services_block.css");
 
 /* Подключение стилей страниц */
 
