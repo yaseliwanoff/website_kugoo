@@ -9,6 +9,8 @@
 @import url("./sections/services.css");
 @import url("./sections/promotion.css");
 @import url("./sections/category.css");
+@import url("./sections/kugoo.css");
+@import url("./sections/characteristics.css");
 
 /* Подключение стилей компонентов */
 @import url("./components/header/header.css");
@@ -20,6 +22,7 @@
 @import url("./components/card/card-product.css");
 @import url("./components/services/services_block.css");
 @import url("./components/category/category_block.css");
+@import url("./components/characteristics/characteristics_block.css");
 
 /* Подключение стилей страниц */
 
@@ -34,6 +37,7 @@
 
     /* Цветовые переменные */
     --background-white: #FFFFFF;
+    --background-black: #282739;
     --background-light-blue: #F4F7FB;
     --background-dark-blue: #EAEBED;
     --background-purple: #6F73EE;

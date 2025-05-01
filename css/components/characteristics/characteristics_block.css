@@ -1,0 +1,61 @@
+.characteristics__block {
+    width: 350px;
+    height: 225px;
+    border-radius: var(--block-large-border-radius);
+    border: 1px solid #EAEBED;
+    padding: 26px 20px;
+}
+
+.characteristics__block-fill {
+    width: 350px;
+    height: 225px;
+    border-radius: var(--block-large-border-radius);
+    background-color: var(--background-light-blue);
+    padding: 26px 20px;
+}
+
+.characteristics__block-fill {
+    background-image: url("../../../assets/images/png/role-bike.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.characteristics__block-fill .wrap {
+    padding-top: 20%;
+}
+
+.wrap .link {
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: var(--text-purple);
+    gap: 10px;
+}
+
+.characteristics__block-fill h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.characteristics__block img {
+    padding-bottom: 20px;
+}
+
+.characteristics__block h4 {
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.characteristics__block-description p {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.characteristics__block-description a {
+    color: var(--text-purple);
+    font-size: 14px;
+}
