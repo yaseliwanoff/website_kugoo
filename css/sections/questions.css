@@ -1,0 +1,21 @@
+.questions {
+    color: var(--text-black);
+    padding-bottom: 110px;
+}
+
+.questions__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.questions h2 {
+    padding-bottom: 60px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 51px;
+    width: 456px;
+    margin: 0 auto;
+}

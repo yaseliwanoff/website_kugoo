@@ -1,5 +1,6 @@
 .blog {
     color: var(--text-black);
+    padding-bottom: 110px;
 }
 
 .blog h2 {
