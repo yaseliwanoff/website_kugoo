@@ -11,6 +11,9 @@
 @import url("./sections/category.css");
 @import url("./sections/kugoo.css");
 @import url("./sections/characteristics.css");
+@import url("./sections/video.css");
+@import url("./sections/videoreviews.css");
+@import url("./sections/blog.css");
 
 /* Подключение стилей компонентов */
 @import url("./components/header/header.css");
@@ -23,6 +26,7 @@
 @import url("./components/services/services_block.css");
 @import url("./components/category/category_block.css");
 @import url("./components/characteristics/characteristics_block.css");
+@import url("./components/blog-card/blog_card.css");
 
 /* Подключение стилей страниц */
 

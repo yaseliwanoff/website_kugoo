@@ -1,5 +1,6 @@
 .characteristics {
     color: var(--text-black);
+    padding-bottom: 110px;
 }
 
 .characteristics__header, .characteristics__header-description {
