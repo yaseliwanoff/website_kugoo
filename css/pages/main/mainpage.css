@@ -1,0 +1,13 @@
+/* Подключение стилей секций */
+@import url("./sections/hero.css");
+@import url("./sections/products.css");
+@import url("./sections/services.css");
+@import url("./sections/promotion.css");
+@import url("./sections/category.css");
+@import url("./sections/kugoo.css");
+@import url("./sections/characteristics.css");
+@import url("./sections/video.css");
+@import url("./sections/videoreviews.css");
+@import url("./sections/blog.css");
+@import url("./sections/questions.css");
+@import url("./sections/often.css");

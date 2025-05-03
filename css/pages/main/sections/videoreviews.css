@@ -51,7 +51,7 @@
 }
 
 .first {
-    background-image: url("../../assets/images/jpg/video-preview1.jpg");
+    background-image: url("../../../../assets/images/jpg/video-preview1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,14 +76,14 @@
 }
 
 .middle {
-    background-image: url("../../assets/images/jpg/video-preview2.jpg");
+    background-image: url("../../../../assets/images/jpg/video-preview2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .last {
-    background-image: url("../../assets/images/jpg/video-preview3.jpg");
+    background-image: url("../../../../assets/images/jpg/video-preview3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

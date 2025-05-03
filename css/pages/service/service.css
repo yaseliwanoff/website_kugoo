@@ -1,0 +1,3 @@
+/* Подключение стилей секций */
+@import url("./sections/hero.css");
+@import url("./sections/diagnostics.css");

@@ -3,20 +3,6 @@
 @import url("./reset.css");
 @import url("./typography.css");
 
-/* Подключение стилей секций */
-@import url("./sections/hero.css");
-@import url("./sections/products.css");
-@import url("./sections/services.css");
-@import url("./sections/promotion.css");
-@import url("./sections/category.css");
-@import url("./sections/kugoo.css");
-@import url("./sections/characteristics.css");
-@import url("./sections/video.css");
-@import url("./sections/videoreviews.css");
-@import url("./sections/blog.css");
-@import url("./sections/questions.css");
-@import url("./sections/often.css");
-
 /* Подключение стилей компонентов */
 @import url("./components/header/header.css");
 @import url("./components/buttons/button-default.css");
@@ -33,6 +19,8 @@
 @import url("./components/footer/footer.css");
 
 /* Подключение стилей страниц */
+@import url("./pages/main/mainpage.css");
+@import url("./pages/service/service.css");
 
 :root {
     /* Цвета для текста */
@@ -42,6 +30,7 @@
     --text-purple: #6F73EE;
     --text-green: #75D14A;
     --text-red: #EE685F;
+    --text-orange: #F3A712;
 
     /* Цветовые переменные */
     --background-white: #FFFFFF;
