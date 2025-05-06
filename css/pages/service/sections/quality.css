@@ -1,0 +1,83 @@
+.quality__top {
+    padding-bottom: 81px;
+}
+
+.quality__wrapper, .quality__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+
+.quality__top-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 703px;
+    height: 392px;
+    background-image: url("../../../../assets/images/jpg/service/samokat.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--block-large-border-radius);
+}
+
+.quality__bottom .quality__wrapper .quality__top-left {
+    width: 703px;
+    height: 392px;
+    background-image: url("../../../../assets/images/jpg/service/smkt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--block-large-border-radius);
+}
+
+.quality__top-right {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.quality__top-right span {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.quality__top-right .description {
+    padding-bottom: 15px;
+}
+
+.quality__top-right .description p {
+    width: 451px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: none;
+}
+
+.list h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.list ul {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list li {
+    width: 414px;
+    line-height: 20px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.list .doc a {
+    color: var(--text-purple);
+}

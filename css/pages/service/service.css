@@ -1,3 +1,6 @@
 /* Подключение стилей секций */
 @import url("./sections/hero.css");
 @import url("./sections/diagnostics.css");
+@import url("./sections/pricing.css");
+@import url("./sections/zoom.css");
+@import url("./sections/quality.css");
